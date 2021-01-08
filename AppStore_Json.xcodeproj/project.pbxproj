@@ -15,6 +15,9 @@
 		2C2FFB3325A45258005C09FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FFB3125A45258005C09FD /* LaunchScreen.storyboard */; };
 		2C2FFB3E25A45259005C09FD /* AppStore_JsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFB3D25A45259005C09FD /* AppStore_JsonTests.swift */; };
 		2C2FFB4925A45259005C09FD /* AppStore_JsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFB4825A45259005C09FD /* AppStore_JsonUITests.swift */; };
+		2C2FFB5A25A45301005C09FD /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFB5925A45301005C09FD /* BaseTabBarController.swift */; };
+		2C2FFBAF25A488CB005C09FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFBAE25A488CB005C09FD /* SearchViewController.swift */; };
+		2C78F33D25A84EC500B597EB /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78F33C25A84EC500B597EB /* SearchResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2C2FFB4425A45259005C09FD /* AppStore_JsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStore_JsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2FFB4825A45259005C09FD /* AppStore_JsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore_JsonUITests.swift; sourceTree = "<group>"; };
 		2C2FFB4A25A45259005C09FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2FFB5925A45301005C09FD /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		2C2FFBAE25A488CB005C09FD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2C78F33C25A84EC500B597EB /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				2C2FFB2F25A45258005C09FD /* Assets.xcassets */,
 				2C2FFB3125A45258005C09FD /* LaunchScreen.storyboard */,
 				2C2FFB3425A45258005C09FD /* Info.plist */,
+				2C2FFB5925A45301005C09FD /* BaseTabBarController.swift */,
+				2C2FFBAE25A488CB005C09FD /* SearchViewController.swift */,
+				2C78F33C25A84EC500B597EB /* SearchResultCell.swift */,
 			);
 			path = AppStore_Json;
 			sourceTree = "<group>";
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2FFBAF25A488CB005C09FD /* SearchViewController.swift in Sources */,
+				2C2FFB5A25A45301005C09FD /* BaseTabBarController.swift in Sources */,
 				2C2FFB2B25A45256005C09FD /* ViewController.swift in Sources */,
 				2C2FFB2725A45256005C09FD /* AppDelegate.swift in Sources */,
+				2C78F33D25A84EC500B597EB /* SearchResultCell.swift in Sources */,
 				2C2FFB2925A45256005C09FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
